@@ -29,6 +29,6 @@ public class Sales extends Pegawai{
     }
 
     public String toString(){
-        return String.format("Pegawai Harian\t:%s\nTotal Penjualan : %d\nBesaran Komisi\t: %.1f\nPendapatan\t: Rp %.0f",super.toString(), getPenjualan(), getKomisi(), gaji());
+        return String.format("Sales\t\t:%s\nTotal Penjualan : %d\nBesaran Komisi\t: %.1f\nPendapatan\t: Rp %.0f",super.toString(), getPenjualan(), getKomisi(), gaji());
     }
 }
